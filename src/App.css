@@ -1,0 +1,133 @@
+/* google front */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height:72px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 24px;
+}
+
+.btn3{
+ width: 75px;
+ height: 31px;
+ top: 21px;
+ left: 1286px;
+ padding: 6px 16px 6px 16px;
+ background-color:#D01C28 ;
+ color: whitesmoke;
+ cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 72px);
+}
+
+main h1{
+    width: 595px;
+    height: 306px;
+    font-family: Poppins;
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+
+
+}
+
+main p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+main .btn{
+    display: flex;
+    width: 331px;
+    height: 41px;
+    gap: 40px;
+}
+
+
+main .btn .btn1{
+    width: 150px;
+    height: 41px;
+    padding: 6px 16px 6px 16px;
+    gap: 10px;
+    background-color: #D01C28;
+    color: whitesmoke;
+}
+
+main .btn .btn2{
+    width: 121px;
+    height: 41px;
+    padding: 6px 16px 6px 16px;
+    gap: 10px;
+    color:#000000;
+    border: 1px solid #000000
+}
+
+.shop{
+    width: Hug (131px);
+    height: Hug (67px);
+    gap: 16px;
+
+}
+
+.shop p{
+    margin: 5px;
+    width: 131px;
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.brand_icon{
+    margin: 5px;
+    width: Hug (80px);
+    height: Hug (32px);
+   gap: 16px;
+   display: flex;
+}
+
+.brand_icon img{
+    width: 32px;
+   height: 32px
+
+}
